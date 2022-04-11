@@ -1,0 +1,7 @@
+user adds a new note and hits save
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: {"message":"note created"}
+browser adds the new note to display
+
+note:
+browser does not load new notes created in other windows/browsers/users until a full page refresh is done.
